@@ -1,6 +1,4 @@
-# curso_linguagem_de_programacao_java_basico_bradesco
-Curso linguagem de programação Java básico cursado na Plataforma Bradesco
-Curso Linguagem de Programação Java - Básico!
+# Curso linguagem de programação Java básico cursado na Plataforma Bradesco
 ---------------------------------------------
 ---------------------------------------------
 Modulo 1 - Introdução ao Java
