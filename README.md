@@ -1,2 +1,147 @@
 # curso_linguagem_de_programacao_java_basico_bradesco
-Curso linguagem de programação Java básico Plataforma Bradesco
+Curso linguagem de programação Java básico cursado na Plataforma Bradesco
+Curso Linguagem de Programação Java - Básico!
+---------------------------------------------
+---------------------------------------------
+Modulo 1 - Introdução ao Java
+---
+* O que é Java
+- Instruções construídas em Java são chamadas de softwares, também conhecidos como “programas de computador”. Sobre isso, um exemplo de programa de computador são os softwares de webconferência.
+---
+* Um pouco de história
+- O Java foi criado pela empresa Sun Microsystems, no ano de 1991, quando um projeto de pesquisa corporativa resultou em uma linguagem de programação.
+- Originalmente era chamado de OAK
+- JDK, 1996, Java one
+- 1998, Visa usou java
+- 2004 a nasa enviou para marte um robô com java
+- Java resolve alguns dos problemas complexos relacionados a internet, como portabilidade e segurança.
+- Portabilidade diz respeito a capacidade dessa linguagem usar o mesmo código em sistemas operacionais diferentes. Isso evita, por exemplo, que outros executáveis sejam baixados para que determinados programas possam funcionar, contribuindo assim, para a segurança do sistema.
+---
+* Portabilidade
+- Aspecto ligado a internet
+- Quando um programa pode ser compilado para diferentes arquiteturas;
+---
+* Bytecode
+- O segredo para permitir que o Java resolva os 
+problemas de segurança e portabilidade que 
+acabamos de aprender, decorrentes da saída do 
+compilador Java, que não é um código executável, 
+seria utilizar o bytecode.
+- Conjunto de instruções altamente otimizadas
+- JVM: Interpretador de Bytecode
+> Torna os programas mais seguros evitando efeitos colaterais
+> Permite executar programas mais rapidamente
+- JRE: Kit para execução de aplicativos
+---
+* Java Development Kit (JDK)
+- Para utilizarmos a plataforma Java, precisamos ter o Java Development Kit (JDK) instalado no computador. Ele pode ser baixado diretamente no site da Oracle. A versão utilizada é a Java SE8 (Standard Edition).
+- O pacote de instalação JDK oferece duas principais instalações:
+> Instalação 1: Compilador Java (javac).
+> Instalação 2: Interpretador padrão utilizado na inicialização dos aplicativos (Java).
+- A versão utilizada no curso será a “Windows X64 - jdk-8u281-windows-x64.exe”
+---
+* Ambiente de Desenvolvimento Integrado ou Integrated Development Environment (IDEs)
+- Um recurso muito eficaz para a programação: os Integrated Development Environment (IDEs), ou também conhecidos em português como Ambiente de desenvolvimento integrado.
+- Ferramentas de apoio no desenvolvimento de programas
+- Simples não é mesmo? Até aqui você entendeu que os IDEs, no momento em que o JDK é acionado, proporcionam uma série de ações, como identificar bugs, sugerir códigos etc., as quais ajudam (e muito) na hora da programação.
+---------------------------------------------
+---------------------------------------------
+Módulo 2 - Fundamentos da linguagem Java
+---
+* O Java que executa um programa é conhecido como Java Virtual Machine ou JVM, como já conhecemos
+- O JVM simula o computador, o qual não é físico, sendo apenas construído em um software que realiza a interpretação do programa Java.
+- Dessa forma, converte o programa em linguagem de máquina para ser executado pelo computador ou qualquer outro dispositivo que suporte o Java.
+- exercicio
+---
+* Estrutura da linguagem Java
+- O slogan da linguagem Java é “write once run anywhere”, traduzindo de forma literal, temos algo como “escreva uma vez e execute em qualquer lugar”.
+- Os comentários podem ser de três tipos:
+> Comentário de uma linha
+> Comentário de múltiplas linhas
+> Comentário para documentação do código;
+> Exemplo:
+/**
+*Programa que imprime Olá mundo
+*@author Maycon Nascimento de Oliveira
+*/
+- Exemplo de execução de programa simples java:
+> Para o javac funcionar é necessário setar a variável de amiente do java
+> Buildar: javac HelloWorld.java
+# Executar: java HelloWorld
+---
+* Lógica de programação e variáveis
+- A lógica de programação consiste naquilo que utilizamos para escrever ou desenvolver os programas, os quais serão interpretados pelos computadores, utilizando sequências ou etapas, de modo que possam executar uma ou, até mesmo, diversas funções. Essa sequência é chamada de algoritmo.
+- Variáveis: Essencialmente, as variáveis são espaços nos quais definimos em memória para o armazenamento de dados, que serão executados pelo processador.
+---
+* Palavras reservadas em Java
+- As palavras reservadas são divididas em oito grupos, vamos conhecer cada um deles.
+> No grupo de modificadores de acesso, você encontra:
+# Private: Acesso apenas dentro da classe
+# Protected: Acesso por classes no mesmo pacote e subclasses
+# Public: Acesso de qualquer classe
+> Já no grupo de modificadores de classes, variáveis ou métodos, temos:
+# Final: Impossibilita que uma classe seja estendida, que um método seja sobrescrito ou que uma variável seja reinicializada;
+# Implements: Indica as interfaces que uma classe irá implementar
+# Interface: Especifica uma interface
+# Static: Faz um método ou uma variável pertencer a classe em vez de pertencer às instâncias
+# Synchronized: Indica que um método só possa ser acessado por um thread de cada vez
+# Transient: Impede a serialização de campos
+# Volatile: Indica que uma variavel pode ser alterada durante o uso de threads
+> Temos, ainda, o grupo de palavras reservadas para controle de fluxo dentro de um bloco de código. Neste grupo, você encontrará:
+# Continue Pula a execução do código que viria após a linha e vai para a próxima passagem do loop
+# Instanceof: Determina se um objeto é uma instância de determinada classe, superclasse ou interface
+> Por sua vez, no caso do grupo de tratamento de erros, consideramos as seguintes palavras:
+# Assert: Testa uma expressão condicional para verificar uma suposição do programador
+# Catch: Declara o bloco de código usado para tratar uma exceção
+# Finally: Bloco de código, após um try-catch, executado independentemente do fluxo de programa seguido ao lidar com uma exceção;
+# Throw: Usado para passar uma exceção para o método que chamou;
+# Throws: Indca que um método pode passar uma exceção para o método que o chamou
+> Para o grupo de controle de pacotes, outras palavras reservadas são aplicadas:
+# Import: Importa pacotes ou classes para dentro do código
+# Package: Especifica em qual pacote todas as classes de um arquivo estão inseridas
+> Pensando nos grupos tipos primitivos, temos as seguintes palavras reservadas:
+# Byte: Inteiro de 8 bits (signed)
+# Char: Caractere unicode (16 bit unsigned)
+# Float: Número de ponto flutuante de 32 bits (signed)
+# Long: Inteiro de 64 bits (signed)
+# Short: Inteiro de 32 bits (signed)
+> A linguagem de programação Java oferece oito tipos para utilização, como lógico, caractere, números inteiros e ponto flutuante.
+> Também precisamos mencionar o grupo das variáveis de referência, conforme apresentado na sequência.
+# Super: Refere-se à superclasse imediata
+# This: Refere-se à instância atual do objeto
+> Temos o grupo com algumas palavras reservadas que não são utilizadas na linguagem Java por motivos plausíveis. Veja quais são:
+# Const: Não se utiliza para declarar constantes, trocando por public static final
+# Goto: Em Java, é feito pelo break ou continue com rótulo. É útil para interromper de uma vez só a execução de um laço múltiplo ou pular para determinado ponto do programa;
+> Conjunto de palavras essenciais para a lógica de programação da linguagem Java: as palavras reservadas. Elas desempenham funções singulares, sendo divididas em oito grupos (modificadores de acesso, modificadores de classes, variáveis ou métodos, controle de fluxo dentro de um bloco de código, tratamento de erros, controle de pacotes, tipos primitivos e variáveis de referência).
+---
+* Operadores
+- Nesse sentido, os operadores são símbolos utilizados na execução de operações, assim como nas operações lógicas e matemáticas, estão divididos em três grupos;
+> Operadores matemáticos
+# Aplicam cálculos matemáticos nas linhas de código
+> Operadores de incremento
+# Acréscimo de uma determinada unidade ao valor da variável.
+> Operadores lógicos
+# Encadeiam expressões a partir de um raciocínio lógico, sobretudo, atribuido a noção de verdadeiro e falso;
+> Operadores matemáticos. Também chamados de binários, esses operadores têm a função de evidenciar o tipo de cálculo a ser empregado na linha de programação.
+> Os operadores de incremento são responsáveis pelo acréscimo de uma unidade ao valor da variável. Assim, sendo unário, será um operador que não necessitará do uso de outra variável na execução do seu processo.
+> O operador && é chamado de “operador E”. Ele retornará true se os dois operadores lógicos forem verdadeiros, logo, <operador1> && <operador2>. Contudo, essa não é a única combinação possível. No quadro a seguir, você pode notar que existem outras opções de utilização do operado.
+> O operador ||, por outro lado, é chamado de “operador OU”. Ele retornará true se ao menos um dos dois operadores lógicos forem verdadeiros, logo, temos <operador1> || <operador2>
+> O operador ! é chamado de “operador de negação”. Ele retornará true se o operador lógico for falso, assim como retornará false se o operador lógico for verdadeiro.
+---------------------------------------------
+---------------------------------------------
+Módulo 3 - Fluxo de controle e array
+---
+* O fluxo condicional nos permite realizar determinada avaliação de um bloco do programa. De acordo com essa avaliação, podemos executar ou não um trecho de código. Por outro lado, temos a coleção de dados, que é um array.
+---
+* Fluxos condicional e de repetição
+- Fluxos condicional
+> Indica para o programa, O início de um teste
+---
+* Iniciando arrays
+- Eles dizem respeito a um conjunto indexado de informação, ou seja, ele armazena informações da mesma natureza. Assim, para iniciar um array, primeiro, precisamos definir o tipo do conjunto e, depois, indexar a chave em determinado valor
+---
+***CONCLUIDO***
+---------------------------------------------
+---------------------------------------------
+Referência:
+Plataforma Bradesco. Acesso em: https://www.ev.org.br
